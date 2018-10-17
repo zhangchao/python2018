@@ -1,14 +1,16 @@
 # python2018
-python sample code 
+python sample code
 
-# Install enviroment 
+# Install enviroment
 
 1. bash Miniconda3-latest-MacOSX-x86_64.sh (https://conda.io/miniconda.html)
-2. conda create -n PDSH python=3.5 --file requirements.txt
-3. source activate PDSH
+2. conda create -n MLDEMO python=3.6 --file requirements.txt
+3. source activate MLDEMO
 
 ```
 conda install pandas
+
+pip install --user --upgrade git+https://github.com/jpmml/sklearn2pmml.git
 
 import pandas as pd
 data = pd.read_csv('data/president_heights.csv')
